@@ -1,6 +1,6 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#immich 相关
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
+tensorchord/pgvecto-rs
+redis
+#支持指定架构（目前自己阿里云服务器上的 unbuntu 使用 uname -m 查看是 x86_64 无需指定 --platform=linux/arm64
