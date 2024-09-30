@@ -1,6 +1,6 @@
 #immich 相关
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
-tensorchord/pgvecto-rs
-redis
+docker.io/redis:6.2-alpine
+docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0
 #支持指定架构（目前自己阿里云服务器上的 unbuntu 使用 uname -m 查看是 x86_64 无需指定 --platform=linux/arm64
